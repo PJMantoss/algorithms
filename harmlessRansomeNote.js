@@ -1,5 +1,5 @@
 harmlessRansomeNote = (note, magText) => {
-    const validnput = typeof note === "string" && typeof magText === "string";
+    const validInput = typeof note === "string" && typeof magText === "string";
           if(!validInput) return new Error("You have passed in invalid input");
 
     const noteArray = note.split(" ").filter(Boolean);
@@ -14,8 +14,8 @@ harmlessRansomeNote = (note, magText) => {
     magArray.forEach(word => {
         if(!magHashTable[word]){
             magHashTable[word] = 0;
-            magHashTable[word]++;
         }
+        magHashTable[word]++;
     })
 
     let noteIsPossible = true;
