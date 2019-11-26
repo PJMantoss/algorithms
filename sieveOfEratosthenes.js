@@ -1,4 +1,6 @@
-// Sieve of Eratosthenes
+/* Sieve of Eratosthenes is a simple algorithm for finding all of the prime numbers between two numbers
+(or up to a certain limit)
+*/
 
 /*RULES:
   Function takes one parameter
