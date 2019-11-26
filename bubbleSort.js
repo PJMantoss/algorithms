@@ -1,7 +1,9 @@
 //Bubble Sort
 
-/*The idea behind bubble sort is that every pair of adjacent values is compared, and then the two values swap positions if the first value is greater than the second. This way during each pass through the array, 
-the largest value “bubbles up” to the top, and after each pass the elements furthest to the right are in the correct order. 
+/*The idea behind bubble sort is that every pair of adjacent values is compared, 
+and then the two values swap positions if the first value is greater than the second. 
+This way during each pass through the array, the largest value “bubbles up” to the top, 
+and after each pass the elements furthest to the right are in the correct order. 
 
 RULES
   Takes one parameter,
