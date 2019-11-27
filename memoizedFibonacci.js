@@ -3,7 +3,7 @@
 /*RULES:
   Two params
     Index
-      Index of number in fibonacci sequenec
+      Index of number in fibonacci sequence
     Cache
       An array used as memory
 */
