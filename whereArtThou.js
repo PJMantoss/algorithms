@@ -13,7 +13,7 @@ function whatIsInAName(collection, source) {
   // What's in a name?
   let arr = [];
   
-   let keys = Object.keys(source); // List all the properties present in source and assign it to a variable - keys
+   let keys = Object.keys(source); // List all the properties present in source and assign it to the variable - keys
    collection.forEach(function(e){ // Check every element in the collection array against source and return elements that are same
      if(keys.every(function(key){
        return e[key] === source[key];
