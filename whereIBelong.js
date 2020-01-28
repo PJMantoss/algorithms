@@ -11,7 +11,7 @@ function getIndexToIns(arr, num) {
       return a - b
       });
   //Using loop, compare items in array
-    for (let i=0; i<arr.length; i++){
+    for (let i=0; i<len; i++){
       if (arr[i] >= num){
         return i;
       } 
