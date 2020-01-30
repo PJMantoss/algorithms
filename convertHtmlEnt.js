@@ -4,14 +4,14 @@ and ' (apostrophe), in a string to their corresponding HTML entities.
 */
 
 function convertHTML(str) {
-    // &colon;&rpar;
-    let elem = str.split("");
+    
+    let elem = str.split(""); //which creates an array containing each individual character in the passed in string.
   
     for (let i=0; i<elem.length; i++){
   
       switch(elem[i]){
         case "&":
-            elem[i] = "&amp;";
+            elem[i] = "&amp;"; //Replace the HTML entities with their corresponding HTML entity string
             break;
         case "<":
             elem[i] = "&lt;";
@@ -27,7 +27,7 @@ function convertHTML(str) {
             break;
       }
     }
-      elem = elem.join("");
+      elem = elem.join(""); //converts the array of characters into a string to be returned.
       return elem;
   }
   
