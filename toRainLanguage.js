@@ -1,0 +1,4 @@
+const toRainLangusge = () => {
+    let result = "";
+    
+}
