@@ -2,5 +2,7 @@
 //NOTE: You are only allowed to use the array.reduce() method
 
 const makeFlat = array => {
-    return 
+    return array.reduce((accumulator, value) => {
+        return Array.isArray(value) ? [...accumulator, makeFlat(value)] : [...accumulator, value]
+    })
 }
