@@ -8,7 +8,7 @@ const toRainLangusge = number => {
     return result || number;
 }
 
-console.log(toRainLangusge(3));
-console.log(toRainLangusge(21));
-console.log(toRainLangusge(35));
-console.log(toRainLangusge(1));
+console.log(toRainLangusge(3)); //Pling
+console.log(toRainLangusge(21)); //PlingPlong
+console.log(toRainLangusge(35)); //PlangPlong
+console.log(toRainLangusge(1)); // 1
