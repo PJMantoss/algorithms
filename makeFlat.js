@@ -6,3 +6,5 @@ const makeFlat = array => {
         return Array.isArray(value) ? [...accumulator, makeFlat(value)] : [...accumulator, value]
     })
 }
+
+console.log(makeFlat(["one", ["two", "three"], ["four", ["five"]]])); // ['one','two','three','four','five']
