@@ -4,6 +4,7 @@ const alphabets = 'abcdefghijklmnopqrstuvwxyz';
 
 const isPangram = string => {
     //remove all capital letters
-    const processedString = string.toLowerCase();
-    //
+     //remove spaces between words and join the words without comma
+     //filter to remove duplicates and sort
+    const processedString = [...new Set(string.toLowerCase().split(' ').join(''))];
 }
