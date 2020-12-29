@@ -6,3 +6,5 @@ const encode = string => {
     return string.replace(/(\w)\1+/g, (m,v) => `${m.length}${v}`);
     //Regex matches any letter of the alphabeth and matches any further occurence indefinitely
 }
+
+const decode = string => {}
