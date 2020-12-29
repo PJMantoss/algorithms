@@ -9,3 +9,4 @@ const isLeapYear = year => {
 
 console.log(isLeapYear("2020")); // true
 console.log(isLeapYear("2018")); // false
+console.log(isLeapYear("1700")); // false
