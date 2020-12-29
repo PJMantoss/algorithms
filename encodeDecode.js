@@ -7,4 +7,9 @@ const encode = string => {
     //Regex matches any letter of the alphabeth and matches any further occurence indefinitely
 }
 
-const decode = string => {}
+const decode = string => {
+    return string.replace(/(\d+)(\w)/g, (x,y,z) => z.repeat(y));
+}
+
+console.log(encode('wwwwwwwwiiuuuu')) //3w4i4u
+console.log(decode('111u3a4o')) //uuaaaoooo
